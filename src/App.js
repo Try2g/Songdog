@@ -289,7 +289,17 @@ function App() {
             </div>
 
             {!isRanked && <GenreSelector genres={genres} setGenres={setGenres} />}
-            {isRanked && <p>❤️ Lives: {lives} &nbsp;&nbsp; ⭐ Score: {score}</p>}
+            {isRanked && (
+                <>
+                    <p>❤️ Lives: {lives} &nbsp;&nbsp; ⭐ Score: {score}</p>
+                    {currentSong && (
+                        <p style={{ color: "#ccc", fontSize: "0.9rem", marginTop: "0.3rem", marginBottom: "0.7rem" }}>
+                            🎧 Genre: <strong>{currentSong.genre}</strong>
+                        </p>
+                    )}
+                </>
+            )}
+
 
             <SongStage
                 stages={stages}
