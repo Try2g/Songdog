@@ -2,28 +2,28 @@
     {
         "title": "Another One Bites The Dust (Remastered 2011)",
         "artist": "Queen",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/000_another_one_bites_the_dust_(remastered_2011).mp3",
         "album_cover": "https://api.deezer.com/album/1121182/image"
     },
     {
         "title": "You Shook Me All Night Long",
         "artist": "AC/DC",
-        "genre": "Pop",
+        "genre": "Hard Rock",
         "preview_url": "/static/audio/001_you_shook_me_all_night_long.mp3",
         "album_cover": "https://api.deezer.com/album/9410100/image"
     },
     {
         "title": "Call Me",
         "artist": "Blondie",
-        "genre": "Pop",
+        "genre": "New Wave",
         "preview_url": "/static/audio/002_call_me.mp3",
         "album_cover": "https://api.deezer.com/album/300209/image"
     },
     {
         "title": "Upside Down",
         "artist": "Diana Ross",
-        "genre": "Pop",
+        "genre": "Disco",
         "preview_url": "/static/audio/003_upside_down.mp3",
         "album_cover": "https://api.deezer.com/album/430643/image"
     },
@@ -37,21 +37,21 @@
     {
         "title": "Funkytown (Single Version)",
         "artist": "Lipps Inc.",
-        "genre": "Pop",
+        "genre": "Disco",
         "preview_url": "/static/audio/005_funkytown_(single_version).mp3",
         "album_cover": "https://api.deezer.com/album/102387/image"
     },
     {
         "title": "Woman In Love",
         "artist": "Barbra Streisand",
-        "genre": "Pop",
+        "genre": "Adult Contemporary",
         "preview_url": "/static/audio/006_woman_in_love.mp3",
         "album_cover": "https://api.deezer.com/album/78176/image"
     },
     {
         "title": "Celebration (Single Version)",
         "artist": "Kool & The Gang",
-        "genre": "Pop",
+        "genre": "Funk",
         "preview_url": "/static/audio/007_celebration_(single_version).mp3",
         "album_cover": "https://api.deezer.com/album/102388/image"
     },
@@ -65,7 +65,7 @@
     {
         "title": "Don't Stand So Close To Me",
         "artist": "The Police",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/009_don't_stand_so_close_to_me.mp3",
         "album_cover": "https://api.deezer.com/album/93732622/image"
     },
@@ -163,7 +163,7 @@
     {
         "title": "Kiss on My List",
         "artist": "Hall & Oates",
-        "genre": "Pop",
+        "genre": "Blue-Eyed Soul",
         "preview_url": "/static/audio/023_kiss_on_my_list.mp3",
         "album_cover": "https://api.deezer.com/album/458255015/image"
     },
@@ -191,7 +191,7 @@
     {
         "title": "Rapture",
         "artist": "Blondie",
-        "genre": "Pop",
+        "genre": "New Wave",
         "preview_url": "/static/audio/027_rapture.mp3",
         "album_cover": "https://api.deezer.com/album/300273/image"
     },
@@ -254,7 +254,7 @@
     {
         "title": "Get Down On It",
         "artist": "Kool & The Gang",
-        "genre": "Pop",
+        "genre": "Funk",
         "preview_url": "/static/audio/036_get_down_on_it.mp3",
         "album_cover": "https://api.deezer.com/album/9617086/image"
     },
@@ -268,7 +268,7 @@
     {
         "title": "Every Little Thing She Does Is Magic",
         "artist": "The Police",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/038_every_little_thing_she_does_is_magic.mp3",
         "album_cover": "https://api.deezer.com/album/247629/image"
     },
@@ -289,14 +289,14 @@
     {
         "title": "Africa",
         "artist": "Toto",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/041_africa.mp3",
         "album_cover": "https://api.deezer.com/album/116670/image"
     },
     {
         "title": "Eye of the Tiger",
         "artist": "Survivor",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/042_eye_of_the_tiger.mp3",
         "album_cover": "https://api.deezer.com/album/74479/image"
     },
@@ -429,7 +429,7 @@
     {
         "title": "Every Breath You Take",
         "artist": "The Police",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/061_every_breath_you_take.mp3",
         "album_cover": "https://api.deezer.com/album/247629/image"
     },
@@ -464,7 +464,7 @@
     {
         "title": "Rosanna",
         "artist": "Toto",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/066_rosanna.mp3",
         "album_cover": "https://api.deezer.com/album/116670/image"
     },
@@ -520,14 +520,14 @@
     {
         "title": "Say It Isn’t So",
         "artist": "Hall & Oates",
-        "genre": "Pop",
+        "genre": "Blue-Eyed Soul",
         "preview_url": "/static/audio/074_say_it_isn’t_so.mp3",
         "album_cover": "https://api.deezer.com/album/458255015/image"
     },
     {
         "title": "Little Red Corvette",
         "artist": "Prince",
-        "genre": "Pop",
+        "genre": "Funk",
         "preview_url": "/static/audio/075_little_red_corvette.mp3",
         "album_cover": "https://api.deezer.com/album/83134/image"
     },
@@ -562,7 +562,7 @@
     {
         "title": "When Doves Cry (2015 Paisley Park Remaster)",
         "artist": "Prince",
-        "genre": "Pop",
+        "genre": "Funk",
         "preview_url": "/static/audio/080_when_doves_cry_(2015_paisley_park_remaster).mp3",
         "album_cover": "https://api.deezer.com/album/43280511/image"
     },
@@ -695,7 +695,7 @@
     {
         "title": "When Doves Cry (2015 Paisley Park Remaster)",
         "artist": "Prince",
-        "genre": "Pop",
+        "genre": "Funk",
         "preview_url": "/static/audio/100_when_doves_cry_(2015_paisley_park_remaster).mp3",
         "album_cover": "https://api.deezer.com/album/43280511/image"
     },
@@ -870,7 +870,7 @@
     {
         "title": "Saving All My Love for You",
         "artist": "Whitney Houston",
-        "genre": "Pop",
+        "genre": "R&B",
         "preview_url": "/static/audio/126_saving_all_my_love_for_you.mp3",
         "album_cover": "https://api.deezer.com/album/121439/image"
     },
@@ -919,7 +919,7 @@
     {
         "title": "Raspberry Beret",
         "artist": "Prince",
-        "genre": "Pop",
+        "genre": "Funk",
         "preview_url": "/static/audio/133_raspberry_beret.mp3",
         "album_cover": "https://api.deezer.com/album/90994/image"
     },
@@ -954,7 +954,7 @@
     {
         "title": "You Give Love A Bad Name",
         "artist": "Bon Jovi",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/140_you_give_love_a_bad_name.mp3",
         "album_cover": "https://api.deezer.com/album/77211342/image"
     },
@@ -1003,7 +1003,7 @@
     {
         "title": "How Will I Know",
         "artist": "Whitney Houston",
-        "genre": "Pop",
+        "genre": "R&B",
         "preview_url": "/static/audio/148_how_will_i_know.mp3",
         "album_cover": "https://api.deezer.com/album/474982/image"
     },
@@ -1087,21 +1087,21 @@
     {
         "title": "With Or Without You (Remastered 2007)",
         "artist": "U2",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/160_with_or_without_you_(remastered_2007).mp3",
         "album_cover": "https://api.deezer.com/album/102819/image"
     },
     {
         "title": "I Wanna Dance with Somebody (Who Loves Me)",
         "artist": "Whitney Houston",
-        "genre": "Pop",
+        "genre": "R&B",
         "preview_url": "/static/audio/161_i_wanna_dance_with_somebody_(who_loves_me).mp3",
         "album_cover": "https://api.deezer.com/album/7530488/image"
     },
     {
         "title": "Livin' On A Prayer",
         "artist": "Bon Jovi",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/162_livin'_on_a_prayer.mp3",
         "album_cover": "https://api.deezer.com/album/70200002/image"
     },
@@ -1129,7 +1129,7 @@
     {
         "title": "Sweet Child O' Mine",
         "artist": "Guns N' Roses",
-        "genre": "Pop",
+        "genre": "Hard Rock",
         "preview_url": "/static/audio/166_sweet_child_o'_mine.mp3",
         "album_cover": "https://api.deezer.com/album/66644272/image"
     },
@@ -1206,7 +1206,7 @@
     {
         "title": "Sign O' The Times (2020 Remaster)",
         "artist": "Prince",
-        "genre": "Pop",
+        "genre": "Funk",
         "preview_url": "/static/audio/177_sign_o'_the_times_(2020_remaster).mp3",
         "album_cover": "https://api.deezer.com/album/174959722/image"
     },
@@ -1262,14 +1262,14 @@
     {
         "title": "Paradise City",
         "artist": "Guns N' Roses",
-        "genre": "Pop",
+        "genre": "Hard Rock",
         "preview_url": "/static/audio/185_paradise_city.mp3",
         "album_cover": "https://api.deezer.com/album/66644272/image"
     },
     {
         "title": "Desire",
         "artist": "U2",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/186_desire.mp3",
         "album_cover": "https://api.deezer.com/album/272018/image"
     },
@@ -1283,7 +1283,7 @@
     {
         "title": "One Moment in Time (Remastered)",
         "artist": "Whitney Houston",
-        "genre": "Pop",
+        "genre": "R&B",
         "preview_url": "/static/audio/188_one_moment_in_time_(remastered).mp3",
         "album_cover": "https://api.deezer.com/album/271640/image"
     },
@@ -1346,7 +1346,7 @@
     {
         "title": "Bad Medicine",
         "artist": "Bon Jovi",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/197_bad_medicine.mp3",
         "album_cover": "https://api.deezer.com/album/7953886/image"
     },
@@ -1402,14 +1402,14 @@
     {
         "title": "Paradise City",
         "artist": "Guns N' Roses",
-        "genre": "Pop",
+        "genre": "Hard Rock",
         "preview_url": "/static/audio/205_paradise_city.mp3",
         "album_cover": "https://api.deezer.com/album/66644272/image"
     },
     {
         "title": "Desire",
         "artist": "U2",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/206_desire.mp3",
         "album_cover": "https://api.deezer.com/album/272018/image"
     },
@@ -1423,7 +1423,7 @@
     {
         "title": "One Moment in Time (Remastered)",
         "artist": "Whitney Houston",
-        "genre": "Pop",
+        "genre": "R&B",
         "preview_url": "/static/audio/208_one_moment_in_time_(remastered).mp3",
         "album_cover": "https://api.deezer.com/album/271640/image"
     },
@@ -1486,7 +1486,7 @@
     {
         "title": "Bad Medicine",
         "artist": "Bon Jovi",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/217_bad_medicine.mp3",
         "album_cover": "https://api.deezer.com/album/7953886/image"
     },
@@ -1766,7 +1766,7 @@
     {
         "title": "Smells Like Teen Spirit",
         "artist": "Nirvana",
-        "genre": "Pop",
+        "genre": "Grunge",
         "preview_url": "/static/audio/260_smells_like_teen_spirit.mp3",
         "album_cover": "https://api.deezer.com/album/1262014/image"
     },
@@ -1787,7 +1787,7 @@
     {
         "title": "November Rain",
         "artist": "Guns N' Roses",
-        "genre": "Pop",
+        "genre": "Hard Rock",
         "preview_url": "/static/audio/263_november_rain.mp3",
         "album_cover": "https://api.deezer.com/album/125209/image"
     },
@@ -1815,7 +1815,7 @@
     {
         "title": "All The Man That I Need",
         "artist": "Whitney Houston",
-        "genre": "Pop",
+        "genre": "R&B",
         "preview_url": "/static/audio/267_all_the_man_that_i_need.mp3",
         "album_cover": "https://api.deezer.com/album/6053832/image"
     },
@@ -1857,7 +1857,7 @@
     {
         "title": "Mysterious Ways",
         "artist": "U2",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/273_mysterious_ways.mp3",
         "album_cover": "https://api.deezer.com/album/1316047/image"
     },
@@ -1871,7 +1871,7 @@
     {
         "title": "Alive",
         "artist": "Pearl Jam",
-        "genre": "Pop",
+        "genre": "Grunge",
         "preview_url": "/static/audio/275_alive.mp3",
         "album_cover": "https://api.deezer.com/album/708674/image"
     },
@@ -1906,7 +1906,7 @@
     {
         "title": "I Will Always Love You",
         "artist": "Whitney Houston",
-        "genre": "Pop",
+        "genre": "R&B",
         "preview_url": "/static/audio/280_i_will_always_love_you.mp3",
         "album_cover": "https://api.deezer.com/album/708692/image"
     },
@@ -1941,7 +1941,7 @@
     {
         "title": "Come As You Are",
         "artist": "Nirvana",
-        "genre": "Pop",
+        "genre": "Grunge",
         "preview_url": "/static/audio/285_come_as_you_are.mp3",
         "album_cover": "https://api.deezer.com/album/1262014/image"
     },
@@ -2067,7 +2067,7 @@
     {
         "title": "I'm Every Woman",
         "artist": "Whitney Houston",
-        "genre": "Pop",
+        "genre": "R&B",
         "preview_url": "/static/audio/303_i'm_every_woman.mp3",
         "album_cover": "https://api.deezer.com/album/708692/image"
     },
@@ -2123,7 +2123,7 @@
     {
         "title": "Creep",
         "artist": "Radiohead",
-        "genre": "Pop",
+        "genre": "Alternative",
         "preview_url": "/static/audio/312_creep.mp3",
         "album_cover": "https://api.deezer.com/album/14880711/image"
     },
@@ -2151,7 +2151,7 @@
     {
         "title": "Heart-Shaped Box",
         "artist": "Nirvana",
-        "genre": "Pop",
+        "genre": "Grunge",
         "preview_url": "/static/audio/316_heart-shaped_box.mp3",
         "album_cover": "https://api.deezer.com/album/6916355/image"
     },
@@ -2270,7 +2270,7 @@
     {
         "title": "Better Man",
         "artist": "Pearl Jam",
-        "genre": "Pop",
+        "genre": "Grunge",
         "preview_url": "/static/audio/334_better_man.mp3",
         "album_cover": "https://api.deezer.com/album/936834/image"
     },
@@ -2655,7 +2655,7 @@
     {
         "title": "Karma Police",
         "artist": "Radiohead",
-        "genre": "Pop",
+        "genre": "Alternative",
         "preview_url": "/static/audio/390_karma_police.mp3",
         "album_cover": "https://api.deezer.com/album/14879699/image"
     },
@@ -2956,7 +2956,7 @@
     {
         "title": "It's Not Right But It's Okay",
         "artist": "Whitney Houston",
-        "genre": "Pop",
+        "genre": "R&B",
         "preview_url": "/static/audio/434_it's_not_right_but_it's_okay.mp3",
         "album_cover": "https://api.deezer.com/album/107854/image"
     },
@@ -3040,7 +3040,7 @@
     {
         "title": "It's My Life",
         "artist": "Bon Jovi",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/446_it's_my_life.mp3",
         "album_cover": "https://api.deezer.com/album/77211342/image"
     },
@@ -3131,7 +3131,7 @@
     {
         "title": "Yellow",
         "artist": "Coldplay",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/459_yellow.mp3",
         "album_cover": "https://api.deezer.com/album/301663/image"
     },
@@ -3187,7 +3187,7 @@
     {
         "title": "Stuck In A Moment You Can't Get Out Of",
         "artist": "U2",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/467_stuck_in_a_moment_you_can't_get_out_of.mp3",
         "album_cover": "https://api.deezer.com/album/216487/image"
     },
@@ -3208,7 +3208,7 @@
     {
         "title": "Trouble",
         "artist": "Coldplay",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/470_trouble.mp3",
         "album_cover": "https://api.deezer.com/album/301663/image"
     },
@@ -3271,7 +3271,7 @@
     {
         "title": "Pyramid Song",
         "artist": "Radiohead",
-        "genre": "Pop",
+        "genre": "Alternative",
         "preview_url": "/static/audio/479_pyramid_song.mp3",
         "album_cover": "https://api.deezer.com/album/14879749/image"
     },
@@ -3397,7 +3397,7 @@
     {
         "title": "In My Place",
         "artist": "Coldplay",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/497_in_my_place.mp3",
         "album_cover": "https://api.deezer.com/album/299821/image"
     },
@@ -3460,7 +3460,7 @@
     {
         "title": "Clocks",
         "artist": "Coldplay",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/507_clocks.mp3",
         "album_cover": "https://api.deezer.com/album/299821/image"
     },
@@ -3565,7 +3565,7 @@
     {
         "title": "Jesus Walks",
         "artist": "Kanye West",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/522_jesus_walks.mp3",
         "album_cover": "https://api.deezer.com/album/68440261/image"
     },
@@ -3621,7 +3621,7 @@
     {
         "title": "Drop It Like It's Hot",
         "artist": "Snoop Dogg",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/530_drop_it_like_it's_hot.mp3",
         "album_cover": "https://api.deezer.com/album/51694882/image"
     },
@@ -3670,7 +3670,7 @@
     {
         "title": "Vertigo",
         "artist": "U2",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/538_vertigo.mp3",
         "album_cover": "https://api.deezer.com/album/230586/image"
     },
@@ -3698,7 +3698,7 @@
     {
         "title": "Gold Digger",
         "artist": "Kanye West",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/542_gold_digger.mp3",
         "album_cover": "https://api.deezer.com/album/126525/image"
     },
@@ -3726,7 +3726,7 @@
     {
         "title": "Speed of Sound",
         "artist": "Coldplay",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/546_speed_of_sound.mp3",
         "album_cover": "https://api.deezer.com/album/300328/image"
     },
@@ -3887,7 +3887,7 @@
     {
         "title": "I Write Sins Not Tragedies",
         "artist": "Panic! At the Disco",
-        "genre": "Pop Rock",
+        "genre": "Pop",
         "preview_url": "/static/audio/569_i_write_sins_not_tragedies.mp3",
         "album_cover": "https://api.deezer.com/album/467291/image"
     },
@@ -3978,7 +3978,7 @@
     {
         "title": "Stronger",
         "artist": "Kanye West",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/582_stronger.mp3",
         "album_cover": "https://api.deezer.com/album/125958/image"
     },
@@ -4034,7 +4034,7 @@
     {
         "title": "Apologize",
         "artist": "OneRepublic",
-        "genre": "Pop Rock",
+        "genre": "Pop",
         "preview_url": "/static/audio/590_apologize.mp3",
         "album_cover": "https://api.deezer.com/album/103293/image"
     },
@@ -4097,7 +4097,7 @@
     {
         "title": "(You Want To) Make A Memory (Pop Album Version)",
         "artist": "Bon Jovi",
-        "genre": "Pop",
+        "genre": "Rock",
         "preview_url": "/static/audio/599_(you_want_to)_make_a_memory_(pop_album_version).mp3",
         "album_cover": "https://api.deezer.com/album/123329/image"
     },
@@ -4111,7 +4111,7 @@
     {
         "title": "Viva La Vida",
         "artist": "Coldplay",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/601_viva_la_vida.mp3",
         "album_cover": "https://api.deezer.com/album/303627/image"
     },
@@ -4307,7 +4307,7 @@
     {
         "title": "Heartless",
         "artist": "Kanye West",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/629_heartless.mp3",
         "album_cover": "https://api.deezer.com/album/13833162/image"
     },
@@ -4426,7 +4426,7 @@
     {
         "title": "Just the Way You Are",
         "artist": "Bruno Mars",
-        "genre": "Pop",
+        "genre": "Funk Pop",
         "preview_url": "/static/audio/646_just_the_way_you_are.mp3",
         "album_cover": "https://api.deezer.com/album/739505/image"
     },
@@ -4538,14 +4538,14 @@
     {
         "title": "Somebody That I Used To Know",
         "artist": "Gotye",
-        "genre": "Alternative",
+        "genre": "Pop",
         "preview_url": "/static/audio/663_somebody_that_i_used_to_know.mp3",
         "album_cover": "https://api.deezer.com/album/1382596/image"
     },
     {
         "title": "Grenade",
         "artist": "Bruno Mars",
-        "genre": "Pop",
+        "genre": "Funk Pop",
         "preview_url": "/static/audio/664_grenade.mp3",
         "album_cover": "https://api.deezer.com/album/739505/image"
     },
@@ -4615,7 +4615,7 @@
     {
         "title": "Good Life",
         "artist": "OneRepublic",
-        "genre": "Pop Rock",
+        "genre": "Pop",
         "preview_url": "/static/audio/674_good_life.mp3",
         "album_cover": "https://api.deezer.com/album/496751/image"
     },
@@ -4629,7 +4629,7 @@
     {
         "title": "Paradise",
         "artist": "Coldplay",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/676_paradise.mp3",
         "album_cover": "https://api.deezer.com/album/1312875/image"
     },
@@ -4657,7 +4657,7 @@
     {
         "title": "Somebody That I Used To Know",
         "artist": "Gotye",
-        "genre": "Alternative",
+        "genre": "Pop",
         "preview_url": "/static/audio/680_somebody_that_i_used_to_know.mp3",
         "album_cover": "https://api.deezer.com/album/1382596/image"
     },
@@ -4706,14 +4706,14 @@
     {
         "title": "Locked out of Heaven",
         "artist": "Bruno Mars",
-        "genre": "Pop",
+        "genre": "Funk Pop",
         "preview_url": "/static/audio/687_locked_out_of_heaven.mp3",
         "album_cover": "https://api.deezer.com/album/6157080/image"
     },
     {
         "title": "It's Time",
         "artist": "Imagine Dragons",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/688_it's_time.mp3",
         "album_cover": "https://api.deezer.com/album/6240279/image"
     },
@@ -4832,7 +4832,7 @@
     {
         "title": "Radioactive",
         "artist": "Imagine Dragons",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/705_radioactive.mp3",
         "album_cover": "https://api.deezer.com/album/6240279/image"
     },
@@ -4860,14 +4860,14 @@
     {
         "title": "Counting Stars",
         "artist": "OneRepublic",
-        "genre": "Pop Rock",
+        "genre": "Pop",
         "preview_url": "/static/audio/709_counting_stars.mp3",
         "album_cover": "https://api.deezer.com/album/7811259/image"
     },
     {
         "title": "When I Was Your Man",
         "artist": "Bruno Mars",
-        "genre": "Pop",
+        "genre": "Funk Pop",
         "preview_url": "/static/audio/710_when_i_was_your_man.mp3",
         "album_cover": "https://api.deezer.com/album/6157080/image"
     },
@@ -4979,7 +4979,7 @@
     {
         "title": "Take Me To Church",
         "artist": "Hozier",
-        "genre": "Pop",
+        "genre": "Soul",
         "preview_url": "/static/audio/727_take_me_to_church.mp3",
         "album_cover": "https://api.deezer.com/album/8548975/image"
     },
@@ -5014,7 +5014,7 @@
     {
         "title": "Love Runs Out",
         "artist": "OneRepublic",
-        "genre": "Pop Rock",
+        "genre": "Pop",
         "preview_url": "/static/audio/732_love_runs_out.mp3",
         "album_cover": "https://api.deezer.com/album/7811259/image"
     },
@@ -5035,7 +5035,7 @@
     {
         "title": "A Sky Full of Stars (Radio Edit)",
         "artist": "Coldplay",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/735_a_sky_full_of_stars_(radio_edit).mp3",
         "album_cover": "https://api.deezer.com/album/7997428/image"
     },
@@ -5133,7 +5133,7 @@
     {
         "title": "Take Me To Church",
         "artist": "Hozier",
-        "genre": "Pop",
+        "genre": "Soul",
         "preview_url": "/static/audio/750_take_me_to_church.mp3",
         "album_cover": "https://api.deezer.com/album/8548975/image"
     },
@@ -5231,7 +5231,7 @@
     {
         "title": "Stressed Out",
         "artist": "Twenty One Pilots",
-        "genre": "Alternative",
+        "genre": "Pop",
         "preview_url": "/static/audio/764_stressed_out.mp3",
         "album_cover": "https://api.deezer.com/album/10236282/image"
     },
@@ -5364,7 +5364,7 @@
     {
         "title": "Believer",
         "artist": "Imagine Dragons",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/783_believer.mp3",
         "album_cover": "https://api.deezer.com/album/68346981/image"
     },
@@ -5385,7 +5385,7 @@
     {
         "title": "That's What I Like",
         "artist": "Bruno Mars",
-        "genre": "Pop",
+        "genre": "Funk Pop",
         "preview_url": "/static/audio/786_that's_what_i_like.mp3",
         "album_cover": "https://api.deezer.com/album/14581500/image"
     },
@@ -5413,7 +5413,7 @@
     {
         "title": "Something Just Like This",
         "artist": "Coldplay",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/790_something_just_like_this.mp3",
         "album_cover": "https://api.deezer.com/album/15438310/image"
     },
@@ -5602,7 +5602,7 @@
     {
         "title": "Someone New",
         "artist": "Hozier",
-        "genre": "Pop",
+        "genre": "Soul",
         "preview_url": "/static/audio/817_someone_new.mp3",
         "album_cover": "https://api.deezer.com/album/8548975/image"
     },
@@ -5644,7 +5644,7 @@
     {
         "title": "Stressed Out",
         "artist": "Twenty One Pilots",
-        "genre": "Alternative",
+        "genre": "Pop",
         "preview_url": "/static/audio/824_stressed_out.mp3",
         "album_cover": "https://api.deezer.com/album/10236282/image"
     },
@@ -5798,7 +5798,7 @@
     {
         "title": "Believer",
         "artist": "Imagine Dragons",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/846_believer.mp3",
         "album_cover": "https://api.deezer.com/album/68346981/image"
     },
@@ -5959,14 +5959,14 @@
     {
         "title": "SICKO MODE",
         "artist": "Travis Scott",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/869_sicko_mode.mp3",
         "album_cover": "https://api.deezer.com/album/69804312/image"
     },
     {
         "title": "This Is America",
         "artist": "Childish Gambino",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/870_this_is_america.mp3",
         "album_cover": "https://api.deezer.com/album/62917062/image"
     },
@@ -6015,7 +6015,7 @@
     {
         "title": "Natural",
         "artist": "Imagine Dragons",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/877_natural.mp3",
         "album_cover": "https://api.deezer.com/album/77648602/image"
     },
@@ -6036,7 +6036,7 @@
     {
         "title": "Old Town Road (feat. Billy Ray Cyrus) (Remix)",
         "artist": "Lil Nas X",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/880_old_town_road_(feat._billy_ray_cyrus)_(remix).mp3",
         "album_cover": "https://api.deezer.com/album/100896762/image"
     },
@@ -6099,7 +6099,7 @@
     {
         "title": "Without Me",
         "artist": "Halsey",
-        "genre": "Alternative",
+        "genre": "Pop",
         "preview_url": "/static/audio/889_without_me.mp3",
         "album_cover": "https://api.deezer.com/album/175153222/image"
     },
@@ -6141,7 +6141,7 @@
     {
         "title": "High Hopes",
         "artist": "Panic! At the Disco",
-        "genre": "Pop Rock",
+        "genre": "Pop",
         "preview_url": "/static/audio/895_high_hopes.mp3",
         "album_cover": "https://api.deezer.com/album/66313782/image"
     },
@@ -6155,7 +6155,7 @@
     {
         "title": "Dance Monkey",
         "artist": "Tones and I",
-        "genre": "Alternative",
+        "genre": "Pop",
         "preview_url": "/static/audio/897_dance_monkey.mp3",
         "album_cover": "https://api.deezer.com/album/108770322/image"
     },
@@ -6169,7 +6169,7 @@
     {
         "title": "Juicy",
         "artist": "Doja Cat",
-        "genre": "Pop",
+        "genre": "Pop Rap",
         "preview_url": "/static/audio/899_juicy.mp3",
         "album_cover": "https://api.deezer.com/album/88172792/image"
     },
@@ -6197,7 +6197,7 @@
     {
         "title": "Say So",
         "artist": "Doja Cat",
-        "genre": "Pop",
+        "genre": "Pop Rap",
         "preview_url": "/static/audio/903_say_so.mp3",
         "album_cover": "https://api.deezer.com/album/117680872/image"
     },
@@ -6323,7 +6323,7 @@
     {
         "title": "MONTERO (Call Me By Your Name)",
         "artist": "Lil Nas X",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/921_montero_(call_me_by_your_name).mp3",
         "album_cover": "https://api.deezer.com/album/216775702/image"
     },
@@ -6337,7 +6337,7 @@
     {
         "title": "Kiss Me More (feat. SZA)",
         "artist": "Doja Cat",
-        "genre": "Pop",
+        "genre": "Pop Rap",
         "preview_url": "/static/audio/923_kiss_me_more_(feat._sza).mp3",
         "album_cover": "https://api.deezer.com/album/238876612/image"
     },
@@ -6421,21 +6421,21 @@
     {
         "title": "Leave The Door Open",
         "artist": "Bruno Mars",
-        "genre": "Pop",
+        "genre": "Funk Pop",
         "preview_url": "/static/audio/935_leave_the_door_open.mp3",
         "album_cover": "https://api.deezer.com/album/298400782/image"
     },
     {
         "title": "INDUSTRY BABY",
         "artist": "Lil Nas X",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/936_industry_baby.mp3",
         "album_cover": "https://api.deezer.com/album/245878832/image"
     },
     {
         "title": "Follow You",
         "artist": "Imagine Dragons",
-        "genre": "Alternative",
+        "genre": "Alternative Rock",
         "preview_url": "/static/audio/937_follow_you.mp3",
         "album_cover": "https://api.deezer.com/album/213761232/image"
     },
@@ -6526,7 +6526,7 @@
     {
         "title": "Woman",
         "artist": "Doja Cat",
-        "genre": "Pop",
+        "genre": "Pop Rap",
         "preview_url": "/static/audio/950_woman.mp3",
         "album_cover": "https://api.deezer.com/album/238876612/image"
     },
@@ -6582,7 +6582,7 @@
     {
         "title": "I Ain't Worried",
         "artist": "OneRepublic",
-        "genre": "Pop Rock",
+        "genre": "Pop",
         "preview_url": "/static/audio/958_i_ain't_worried.mp3",
         "album_cover": "https://api.deezer.com/album/321440247/image"
     },
@@ -6715,7 +6715,7 @@
     {
         "title": "Agora Hills",
         "artist": "Doja Cat",
-        "genre": "Pop",
+        "genre": "Pop Rap",
         "preview_url": "/static/audio/977_agora_hills.mp3",
         "album_cover": "https://api.deezer.com/album/489358925/image"
     },
@@ -6750,7 +6750,7 @@
     {
         "title": "Agora Hills",
         "artist": "Doja Cat",
-        "genre": "Pop",
+        "genre": "Pop Rap",
         "preview_url": "/static/audio/982_agora_hills.mp3",
         "album_cover": "https://api.deezer.com/album/489358925/image"
     },
@@ -6967,7 +6967,7 @@
     {
         "title": "redrum",
         "artist": "21 Savage",
-        "genre": "Pop",
+        "genre": "Hip-Hop",
         "preview_url": "/static/audio/1015_redrum.mp3",
         "album_cover": "https://api.deezer.com/album/533077002/image"
     },
@@ -7128,7 +7128,7 @@
     {
         "title": "Streets",
         "artist": "Doja Cat",
-        "genre": "Pop",
+        "genre": "Pop Rap",
         "preview_url": "/static/audio/1039_streets.mp3",
         "album_cover": "https://api.deezer.com/album/117680872/image"
     },
@@ -7219,7 +7219,7 @@
     {
         "title": "See You Again (feat. Kali Uchis)",
         "artist": "Tyler, The Creator",
-        "genre": "Pop",
+        "genre": "Alternative Hip-Hop",
         "preview_url": "/static/audio/1052_see_you_again_(feat._kali_uchis).mp3",
         "album_cover": "https://api.deezer.com/album/44730061/image"
     },
