@@ -1,0 +1,22 @@
+.genre-selector {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 1rem;
+}
+
+    .genre-selector label {
+        background: #222;
+        padding: 5px 10px;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+
+    .genre-selector input {
+        margin-right: 5px;
+    }
