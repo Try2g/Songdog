@@ -1,7 +1,7 @@
 ﻿import React, { useState } from "react";
 import "./Modal.css";
 
-const GameOverModal = ({ score, onSubmit }) => {
+function GameOverModal({ score, onSubmit }) {
     const [name, setName] = useState("");
 
     const handleSubmit = () => {
@@ -10,34 +10,33 @@ const GameOverModal = ({ score, onSubmit }) => {
         }
     };
 
+    const handleCancel = () => {
+        onSubmit(null); // przekazujemy null, by zasygnalizować anulowanie
+    };
+
     return (
-        <div className="modal">
-            <div className="modal-box">
-                <h2>🎉 Game Over</h2>
-                <p>You scored: <strong>{score}</strong> points</p>
+        <div className="modal-overlay">
+            <div className="modal game-over">
+                <h2>Game Over</h2>
+                <p>Your score: <strong>{score}</strong></p>
+                <p>Enter your nickname to save your score:</p>
                 <input
                     type="text"
-                    placeholder="Enter your name"
                     value={name}
-                    onChange={e => setName(e.target.value)}
-                    style={{
-                        marginTop: "1rem",
-                        padding: "0.5rem",
-                        borderRadius: "5px",
-                        border: "none",
-                        width: "80%"
-                    }}
+                    onChange={(e) => setName(e.target.value)}
+                    placeholder="Your nickname"
                 />
-                <button
-                    className="play-button"
-                    style={{ marginTop: "1rem" }}
-                    onClick={handleSubmit}
-                >
-                    Submit Score
-                </button>
+                <div className="modal-buttons">
+                    <button onClick={handleSubmit} className="btn">
+                        Submit
+                    </button>
+                    <button onClick={handleCancel} className="btn secondary">
+                        Cancel
+                    </button>
+                </div>
             </div>
         </div>
     );
-};
+}
 
 export default GameOverModal;
