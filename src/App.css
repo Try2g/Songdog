@@ -149,18 +149,19 @@ input:checked + .slider {
 
 /* Volume Control Styling */
 .volume-control {
+    margin: 1rem auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
     gap: 0.5rem;
     font-size: 0.9rem;
     color: #ddd;
 }
 
     .volume-control input[type="range"] {
-        width: 160px;
-        height: 4px;
+        width: 150px;
         cursor: pointer;
-        accent-color: #1db954;
+        accent-color: #00cc66;
+        background-color: transparent;
     }
+

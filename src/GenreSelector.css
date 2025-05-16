@@ -2,21 +2,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
-    margin-bottom: 1rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    gap: 0.5rem;
 }
 
-    .genre-selector label {
-        background: #222;
-        padding: 5px 10px;
-        border-radius: 4px;
-        color: white;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
+    .genre-selector .btn {
+        padding: 0.4rem 1rem;
         font-size: 0.9rem;
+        background-color: #2a2a2a;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
     }
 
-    .genre-selector input {
-        margin-right: 5px;
-    }
+        .genre-selector .btn.active {
+            background-color: #00cc66;
+            color: black;
+        }
+
+        .genre-selector .btn:hover {
+            background-color: #444;
+        }
