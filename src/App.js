@@ -267,7 +267,17 @@ function App() {
 
     return (
         <div className="App">
-            <h1>🎵 Songdog 🎵</h1>
+            <img
+                src="/logo.png"
+                alt="SongDog Logo"
+                style={{
+                    height: "480px",
+                    marginTop: "-50px",
+                    marginBottom: "-50px"
+                }}
+            />
+
+
 
             <div className="top-bar">
                 <div className="toggle">
@@ -283,14 +293,13 @@ function App() {
                 </div>
             </div>
 
+            {!isRanked && <GenreSelector genres={genres} setGenres={setGenres} />}
+            {isRanked && <p>❤️ Lives: {lives} &nbsp;&nbsp; ⭐ Score: {score}</p>}
             {isRanked && currentSong && (
-                <p style={{ marginTop: "0.3rem", fontSize: "0.9rem", color: "#aaa" }}>
+                <p style={{ color: "#ccc", fontSize: "0.85rem", marginTop: "-0.5rem" }}>
                     🎧 Genre: <strong>{currentSong.genre}</strong>
                 </p>
             )}
-
-            {!isRanked && <GenreSelector genres={genres} setGenres={setGenres} />}
-            {isRanked && <p>❤️ Lives: {lives} &nbsp;&nbsp; ⭐ Score: {score}</p>}
 
             <SongStage
                 stages={stages}
@@ -389,7 +398,14 @@ function App() {
             {gameOverModalOpen && (
                 <>
                     <div className="backdrop" />
-                    <GameOverModal score={score} onSubmit={handleGameOverSubmit} />
+                    <GameOverModal
+                        score={score}
+                        onSubmit={handleGameOverSubmit}
+                        onCancel={() => {
+                            setGameOverModalOpen(false);
+                            resetRankedGame();
+                        }}
+                    />
                 </>
             )}
         </div>
