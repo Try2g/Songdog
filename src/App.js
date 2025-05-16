@@ -38,21 +38,19 @@ function App() {
 
     const stages = [0.1, 0.5, 1, 2, 4, 8, 15];
     const stagePoints = [10, 8, 6, 4, 3, 2, 1];
-
-    const allOptions = songs.map(s => `${s.artist} - ${s.title}`);
+    const allOptions = songs.map((s) => `${s.artist} - ${s.title}`);
     const isGuessValid = allOptions.includes(guess);
 
     const audioRef = useRef(null);
     const progressInterval = useRef(null);
 
-    const normalize = str => str.toLowerCase().replace(/[^\w\s]/gi, "").trim();
+    const normalize = (str) => str.toLowerCase().replace(/[^\w\s]/gi, "").trim();
 
     const stopProgress = () => clearInterval(progressInterval.current);
 
     const startNewSong = () => {
-        const pool = isRanked ? songs : songs.filter(s => genres.includes(s.genre));
-        const random = Math.floor(Math.random() * pool.length);
-        const selected = pool[random];
+        const pool = isRanked ? songs : songs.filter((s) => genres.includes(s.genre));
+        const selected = pool[Math.floor(Math.random() * pool.length)];
         const audio = new Audio(selected.preview_url);
         audio.volume = volume;
         audioRef.current = audio;
@@ -100,9 +98,11 @@ function App() {
 
     const handleInputChange = (e) => {
         setGuess(e.target.value);
-        setFilteredOptions(allOptions.filter(option =>
-            option.toLowerCase().includes(e.target.value.toLowerCase())
-        ));
+        setFilteredOptions(
+            allOptions.filter((option) =>
+                option.toLowerCase().includes(e.target.value.toLowerCase())
+            )
+        );
         setDropdownVisible(true);
     };
 
@@ -124,7 +124,7 @@ function App() {
         setGuesses(newGuesses);
 
         if (isCorrect) {
-            if (isRanked) setScore(prev => prev + stagePoints[stage]);
+            if (isRanked) setScore((prev) => prev + stagePoints[stage]);
             setFeedback("correct");
             setModalOpen(true);
             if (audioRef.current) audioRef.current.pause();
@@ -135,7 +135,7 @@ function App() {
                 if (isRanked && lives <= 1) {
                     setGameOverModalOpen(true);
                 } else if (isRanked) {
-                    setLives(prev => prev - 1);
+                    setLives((prev) => prev - 1);
                     setFeedback("wrong");
                     setModalOpen(true);
                 }
@@ -157,7 +157,7 @@ function App() {
             if (isRanked && lives <= 1) {
                 setGameOverModalOpen(true);
             } else if (isRanked) {
-                setLives(prev => prev - 1);
+                setLives((prev) => prev - 1);
                 setFeedback("skipped");
                 setModalOpen(true);
             }
@@ -193,7 +193,9 @@ function App() {
     };
 
     const submitScoreToDB = async (name, score, mode) => {
-        const { error } = await supabase.from("leaderboard").insert([{ name, score, mode }]);
+        const { error } = await supabase
+            .from("leaderboard")
+            .insert([{ name, score, mode }]);
         if (error) console.error("❌ Error submitting score:", error.message);
     };
 
@@ -220,11 +222,13 @@ function App() {
     const handleGameOverSubmit = async (name) => {
         if (!name || !isRanked) return;
         await submitScoreToDB(name, score, selectedBoard);
+
         const best = localStorage.getItem(`highestScore_${selectedBoard}`);
         if (!best || score > Number(best)) {
             localStorage.setItem(`highestScore_${selectedBoard}`, score.toString());
             setHighestScore(score);
         }
+
         const updated = await fetchLeaderboardFromDB(selectedBoard);
         setLeaderboard(updated);
         setGameOverModalOpen(false);
@@ -357,22 +361,31 @@ function App() {
             )}
 
             {modalOpen && (
-                <Modal
-                    isCorrect={feedback === "correct"}
-                    song={currentSong}
-                    onClose={handleModalClose}
-                />
+                <>
+                    <div className="backdrop" />
+                    <Modal
+                        isCorrect={feedback === "correct"}
+                        song={currentSong}
+                        onClose={handleModalClose}
+                    />
+                </>
             )}
 
             {modeSwitchModalOpen && (
-                <ModeSwitchModal
-                    onConfirm={confirmModeSwitch}
-                    onCancel={cancelModeSwitch}
-                />
+                <>
+                    <div className="backdrop" />
+                    <ModeSwitchModal
+                        onConfirm={confirmModeSwitch}
+                        onCancel={cancelModeSwitch}
+                    />
+                </>
             )}
 
             {gameOverModalOpen && (
-                <GameOverModal score={score} onSubmit={handleGameOverSubmit} />
+                <>
+                    <div className="backdrop" />
+                    <GameOverModal score={score} onSubmit={handleGameOverSubmit} />
+                </>
             )}
         </div>
     );
