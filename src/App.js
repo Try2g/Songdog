@@ -127,9 +127,6 @@ function App() {
             if (isRanked) setScore((prev) => prev + stagePoints[stage]);
             setFeedback("correct");
             setModalOpen(true);
-            if (audioRef.current) audioRef.current.pause();
-            stopProgress();
-            setIsPlaying(false);
         } else {
             if (stage === stages.length - 1) {
                 if (isRanked && lives <= 1) {
@@ -138,14 +135,18 @@ function App() {
                     setLives((prev) => prev - 1);
                     setFeedback("wrong");
                     setModalOpen(true);
+                } else {
+                    setFeedback("wrong");
+                    setModalOpen(true);
                 }
-                if (audioRef.current) audioRef.current.pause();
-                stopProgress();
-                setIsPlaying(false);
             } else {
                 setStage(stage + 1);
             }
         }
+
+        if (audioRef.current) audioRef.current.pause();
+        stopProgress();
+        setIsPlaying(false);
     };
 
     const handleSkip = () => {
@@ -160,13 +161,17 @@ function App() {
                 setLives((prev) => prev - 1);
                 setFeedback("skipped");
                 setModalOpen(true);
+            } else {
+                setFeedback("skipped");
+                setModalOpen(true);
             }
-            if (audioRef.current) audioRef.current.pause();
-            stopProgress();
-            setIsPlaying(false);
         } else {
             setStage(stage + 1);
         }
+
+        if (audioRef.current) audioRef.current.pause();
+        stopProgress();
+        setIsPlaying(false);
     };
 
     const handleModalClose = () => {

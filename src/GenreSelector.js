@@ -1,24 +1,22 @@
-﻿import React, { useEffect, useState } from "react";
-import songs from "./songs_clean.json";
+﻿import React from "react";
 import "./GenreSelector.css";
 
-function GenreSelector({ genres, setGenres }) {
-    const [availableGenres, setAvailableGenres] = useState([]);
-
-    useEffect(() => {
-        const genreSet = new Set();
-        songs.forEach(song => {
-            if (song.genre && song.genre.trim()) {
-                genreSet.add(song.genre.trim());
-            }
-        });
-        const sorted = Array.from(genreSet).sort((a, b) => a.localeCompare(b));
-        setAvailableGenres(sorted);
-    }, []);
+const GenreSelector = ({ genres, setGenres }) => {
+    const allGenres = [
+        "Pop", "Rock", "Hip-Hop", "R&B", "Soul", "Funk", "Funk Pop", "Disco",
+        "Electronic", "Indie Electronic", "Indie Pop", "Alternative", "Alternative Rock",
+        "Alternative Hip-Hop", "Hard Rock", "Grunge", "New Wave", "Pop Rock",
+        "Pop Rap", "Adult Contemporary", "Blue-Eyed Soul"
+    ];
 
     const toggleGenre = (genre) => {
-        if (genres.includes(genre)) {
-            setGenres(genres.filter(g => g !== genre));
+        const isSelected = genres.includes(genre);
+
+        // Prevent removing the last genre
+        if (isSelected && genres.length === 1) return;
+
+        if (isSelected) {
+            setGenres(genres.filter((g) => g !== genre));
         } else {
             setGenres([...genres, genre]);
         }
@@ -26,17 +24,20 @@ function GenreSelector({ genres, setGenres }) {
 
     return (
         <div className="genre-selector">
-            {availableGenres.map((genre, idx) => (
-                <button
-                    key={idx}
-                    className={genres.includes(genre) ? "btn active" : "btn"}
-                    onClick={() => toggleGenre(genre)}
-                >
-                    {genre}
-                </button>
-            ))}
+            <h2>Select Genres:</h2>
+            <div className="genre-buttons">
+                {allGenres.map((genre) => (
+                    <button
+                        key={genre}
+                        className={`genre-button ${genres.includes(genre) ? "selected" : ""}`}
+                        onClick={() => toggleGenre(genre)}
+                    >
+                        {genre}
+                    </button>
+                ))}
+            </div>
         </div>
     );
-}
+};
 
 export default GenreSelector;

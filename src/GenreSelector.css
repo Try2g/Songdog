@@ -1,27 +1,43 @@
 .genre-selector {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+    .genre-selector h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+.genre-buttons {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem auto;
-    max-width: 800px;
-    gap: 0.5rem;
+    gap: 8px;
 }
 
-    .genre-selector .btn {
-        padding: 0.4rem 1rem;
-        font-size: 0.9rem;
-        background-color: #2a2a2a;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
+.genre-button {
+    background-color: #222;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+    .genre-button:hover {
+        background-color: #333;
+        transform: translateY(-1px);
     }
 
-        .genre-selector .btn.active {
-            background-color: #00cc66;
-            color: black;
-        }
-
-        .genre-selector .btn:hover {
-            background-color: #444;
-        }
+    .genre-button.selected {
+        background-color: #00cc66;
+        color: #fff;
+        font-weight: 600;
+        box-shadow: 0 0 8px #00cc66aa;
+    }
